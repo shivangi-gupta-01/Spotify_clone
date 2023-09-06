@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Rubik', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 57px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.container{
+    min-height: 65vh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 12px auto;
+    width: 70%;
+    display: flex;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('bgimg.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+}
+#bar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+
+}
+.songitem{
+    height: 70px;
+    display: flex;
+    width: 250%;
+    background-color: white;
+    color: black;
+    margin: 23px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.time{
+    margin: 0 23px;
+}
+.time i{
+    cursor: pointer;
+}
+.songcontainer{
+    margin-top: 75px;
+}
+.info{
+    position: absolute;
+    left: 11vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.info img{
+    padding-top: 21px;
+    opacity: 0;
+    transition: opacity 0.45s ease-in;
+}
